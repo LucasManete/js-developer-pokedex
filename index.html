@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+    <script src="assets/js/poke-api.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,11 @@
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <h1 class="title-poke">Pokedex</h1>
+        <div class="search">
+            <input  type="text" id="name" name="name">
+            <input type="submit" value="Enviar" onclick="pokeApi.searchPokemons()">
+        </div>
 
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->

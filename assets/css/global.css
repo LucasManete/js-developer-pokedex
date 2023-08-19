@@ -12,6 +12,7 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+    align-items: center;
 }
 
 @media screen and (min-width: 992px) {

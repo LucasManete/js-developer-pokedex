@@ -6,6 +6,16 @@
     list-style: none;
 }
 
+.title-poke {
+    color: #e21818;
+    text-align: center;
+}
+
+.search {
+    border-radius: 10px;
+    text-align: center;
+}
+
 .normal {
     background-color: #a6a877;
 }
